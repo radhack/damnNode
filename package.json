@@ -1,9 +1,12 @@
 {
-  "name": "damnnode",
-  "description": "damnnode description",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-	"start": "node app.js"
-  }
+	"name": "damnnode",
+	"description": "damnnode description",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"templatesjs": "^2.0.0"
+	}
 }

@@ -1,0 +1,14 @@
+{
+	"hosting": {
+		"public": "/Users/alexgriffen/Downloads/nodejs/damnNode",
+		"ignore": [
+			"firebase.json",
+			"**/.*",
+			"**/node_modules/**"
+		],
+		"rewrites": {
+			"source": "**",
+			"destination": "/index.html"
+		}
+	}
+}
